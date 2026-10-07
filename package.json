@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-colorado-code",
+  "version": "0.1.0",
+  "description": "Colorado Revised Statutes — state statutes by citation, topic, and title.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-colorado-code": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "colorado-code"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-colorado-code.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-cb0fb8bf349155ba1f3b34193fcdc0b12f1df7db477296da5d8695a2048561f5",
+    "sourceCommit": "eb436cf60f06c9b79701a15cd1670609580544a5"
+  }
+}
