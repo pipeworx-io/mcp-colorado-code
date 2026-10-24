@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-colorado-code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Colorado Revised Statutes — state statutes by citation, topic, and title.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-bd3c8ecac7398f8af6920c4e379db2ae2c42d87056d4c34e6b32f48e45297e07",
-    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
+    "sourceHash": "v1-5053444701afb4c2eb5ba8ff07367e5805ba9b96054832d3c9ce7bef00ed7a26",
+    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
   }
 }
