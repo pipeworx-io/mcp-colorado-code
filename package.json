@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-colorado-code",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Colorado Revised Statutes — state statutes by citation, topic, and title.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-colorado-code": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "colorado-code"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-colorado-code.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/colorado-code",
   "pipeworx": {
-    "sourceHash": "v1-5053444701afb4c2eb5ba8ff07367e5805ba9b96054832d3c9ce7bef00ed7a26",
-    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
+    "mode": "gateway",
+    "slug": "colorado-code",
+    "gatewaySlug": "colorado-code",
+    "sourceHash": "v1-ad2c36c1eee3c132f968eba9b65ec3712adc9ef68ff480642299988a6d8feb5e",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }
