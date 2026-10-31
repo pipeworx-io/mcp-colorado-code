@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/colorado-code",
   "title": "Colorado Code",
   "description": "Colorado Revised Statutes — state statutes by citation, topic, and title.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/colorado-code",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-colorado-code",

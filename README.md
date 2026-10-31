@@ -2,7 +2,7 @@
 
 Keyless. "C.R.S. 18-3-102" returns murder in the first degree.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1856+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1863+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## The official site redirects into a wall; a second official route does not
 
@@ -134,7 +134,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1856+ data sources. The
+Both URLs reach the same gateway and the same 1863+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
